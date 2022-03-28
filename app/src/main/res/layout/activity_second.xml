@@ -7,21 +7,69 @@
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/textView_First"
-        android:layout_width="242dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="212dp"
-        android:text="Welcome"
+        android:id="@+id/textView_Second"
+        android:layout_width="306dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="152dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="110dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp" />
 
     <TextView
-        android:id="@+id/textView_First2"
+        android:id="@+id/textView_Third"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="272dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp" />
+
+    <TextView
+        android:id="@+id/textView_Fourth"
+        android:layout_width="311dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="400dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <TextView
+        android:id="@+id/textView_Fifth"
+        android:layout_width="313dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="536dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <TextView
+        android:id="@+id/textView_First"
         android:layout_width="242dp"
         android:layout_height="50dp"
         android:layout_marginTop="44dp"
         android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="84dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

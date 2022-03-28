@@ -10,20 +10,18 @@
 
     <TextView
         android:id="@+id/textViewFirst"
-        android:layout_width="231dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="188dp"
-        android:layout_marginBottom="52dp"
+        android:layout_width="336dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="124dp"
         android:text="Fill out your Information"
         android:textAlignment="center"
         android:textColor="@color/purple_700"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -37,123 +35,148 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@id/textViewFirst"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="1.0" />
+
     <TextView
         android:id="@+id/textViewSecond"
         android:layout_width="216dp"
         android:layout_height="32dp"
+        android:layout_marginTop="204dp"
         android:text="Name"
         android:textAlignment="textStart"
         android:textColor="@color/purple_700"
         android:textSize="14sp"
         android:textStyle="bold|italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextFirst"
         android:layout_width="300dp"
         android:layout_height="54dp"
+        android:layout_marginTop="204dp"
         android:ems="10"
         android:hint="Type here"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColorHint="@color/purple_700"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textViewThird"
         android:layout_width="216dp"
         android:layout_height="32dp"
+        android:layout_marginTop="312dp"
         android:text="Email"
         android:textAlignment="textStart"
         android:textColor="@color/purple_700"
         android:textSize="14sp"
         android:textStyle="bold|italic"
-
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="312dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextSecond"
         android:layout_width="296dp"
         android:layout_height="54dp"
+        android:layout_marginTop="312dp"
         android:ems="10"
         android:hint="Type here"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColorHint="@color/purple_700"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="312dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextThird"
         android:layout_width="298dp"
         android:layout_height="52dp"
+        android:layout_marginTop="412dp"
         android:ems="10"
         android:hint="Type here"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColorHint="@color/purple_700"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textViewFourth"
         android:layout_width="216dp"
         android:layout_height="32dp"
+        android:layout_marginTop="412dp"
         android:text="Address"
         android:textAlignment="textStart"
         android:textColor="@color/purple_700"
         android:textSize="14sp"
         android:textStyle="bold|italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:id="@+id/textViewFifth"
         android:layout_width="216dp"
         android:layout_height="32dp"
+        android:layout_marginTop="508dp"
         android:text="Are you a student?"
         android:textAlignment="textStart"
         android:textColor="@color/purple_700"
         android:textSize="14sp"
         android:textStyle="bold|italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="509dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="182dp"
         android:layout_height="48dp"
+        android:layout_marginTop="492dp"
         android:text=""
-
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="493dp" />
-
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="608dp"
         android:text="Register"
         android:textAlignment="center"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="598dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
